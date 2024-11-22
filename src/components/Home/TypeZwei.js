@@ -1,16 +1,13 @@
 import React from "react";
 import Typewriter from "typewriter-effect";
 
-function Type() {
+function TypeZwei() {
   return (
     <Typewriter
       options={{
         strings: [
-          "I'm Mariano Villa",
-          "Full-Stack Senior Developer",
-          "Content Creator",
-          "Serial joker teller of crappy jokes...",
-          "FALOPA"
+          "FALOPA",
+          "PORONGA"
         ],
         autoStart: true,
         loop: true,
@@ -20,4 +17,4 @@ function Type() {
   );
 }
 
-export default Type;
+export default TypeZwei;
