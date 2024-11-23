@@ -322,6 +322,18 @@ button:focus {
   border-radius: 40%;  /* Hace que el halo sea redondo, como la imagen (si la imagen es circular) */
 }
 
+.imagen-card {
+  justify-content: center !important;
+  padding-top: 9em !important;
+  font-size: 1em;
+  position: relative; /* Asegura que el halo se aplica correctamente */
+}
+
+.imagen-card img {
+  box-shadow: 0 0 20px 10px rgba(0, 0, 0, 0.2);  /* Sombra difusa y transparente */
+  border-radius: 40%;  /* Hace que el halo sea redondo, como la imagen (si la imagen es circular) */
+}
+
 @media (max-width: 767px) {
   .myAvtar {
     padding-top: 2em !important;
@@ -331,6 +343,13 @@ button:focus {
 
 @media (max-width: 1px) {
   .pepino {
+    padding-top: 2em !important;
+    padding-bottom: 2em !important;
+  }
+}
+
+@media (max-width: 1px) {
+  .imagen-card {
     padding-top: 2em !important;
     padding-bottom: 2em !important;
   }

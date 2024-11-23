@@ -7,23 +7,28 @@ function RandomCard({title1, title2, text, image}) {
     <Container fluid className="home-about-section" id="about">
       <Container>
         <Row>
-          <Col md={8} className="home-about-description d-flex justify-content-center">
-            <h1 style={{ fontSize: "1.5em" }}>
-              {title1}<span className="purple"> {title2}</span>
+          <Col md={12} className="home-about-description d-flex justify-content-center">
+            <h1 style={{ fontSize: "3.5em" }}>
+            🥒{title1}<span className="purple"> {title2}</span>
             </h1>
           </Col>
 
-          <Col md={6} className="home-about-description">
-            <p className="home-about-body">
-                {text}             
-            </p>
-          </Col>
- 
-          <Col md={6} className="myAvtar">
+           
+          <Col md={12} className="imagen-card">
             <Tilt>
               <img src={image} className="img-fluid" alt="avatar" />
             </Tilt>
           </Col>
+        </Row>
+
+        <Row>
+
+          <Col md={12} className="home-about-description">
+            <p className="home-about-body">
+                {text}             
+            </p>
+          </Col>
+
         </Row>
         
       </Container>
