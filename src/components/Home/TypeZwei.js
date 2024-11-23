@@ -6,8 +6,9 @@ function TypeZwei() {
     <Typewriter
       options={{
         strings: [
-          "FALOPA",
-          "PORONGA"
+          "🥒FALOPA",
+          "🥒PORONGA",
+          "🥒PEPINO"
         ],
         autoStart: true,
         loop: true,
