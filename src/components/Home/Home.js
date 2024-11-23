@@ -7,7 +7,6 @@ import RandomCard from "./RandomCard";
 import Programador from "../../Assets/programador.png";
 import Cat from "../../Assets/gato.png";
 import Guitar from "../../Assets/guitarrista.png";
-import Pickles from "../../Assets/pepino.png";
 import philosopher from "../../Assets/filosofo.png";
 import Type from "./Type";
 import {
